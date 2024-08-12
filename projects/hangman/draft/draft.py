@@ -65,4 +65,6 @@ def main():
         score = (f"You lost, the secret word was {secret_word.upper()}. Better luck next time !")
     
     return print(score)
-main()
+
+if __name__ == "__main__":
+    main()
